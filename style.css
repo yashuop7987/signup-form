@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: lightcyan;
+}
+form {
+  background-color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+.input-control {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.input-control input {
+  padding: 6px;
+  width: 100%;
+}
+.input-control label {
+  padding: 4px;
+}
+.input-control button {
+  padding: 8px;
+  background-color: blue;
+  color: antiquewhite;
+  font-size: larger;
+}
+.error {
+  color: red;
+}
+input:focus {
+  border: 2px solid red;
+}
